@@ -24,11 +24,17 @@
             "dev-develop": "3.4.x-dev"
         }
     },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/bfoosness/laminas-math.git"
+        }
+    ],
     "require": {
         "php": "^7.3 || ~8.0.0",
         "ext-mbstring": "*",
         "container-interop/container-interop": "^1.2",
-        "laminas/laminas-math": "^3.0",
+        "laminas/laminas-math": "dev-php-8.0",
         "laminas/laminas-stdlib": "^2.7.7 || ^3.1",
         "laminas/laminas-zendframework-bridge": "^1.0"
     },
